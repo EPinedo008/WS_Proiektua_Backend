@@ -18,7 +18,7 @@ const writePath = path.join(__dirname, '../../public/images/leagues/');
 
     data.forEach((leagueId, idx) => {
       const url = `https://playfootball.games/media/competitions/${leagueId}.png`;
-
+      console.log(url);
       fetch(url)
         .then(res => {
           if (res.status === 200) {

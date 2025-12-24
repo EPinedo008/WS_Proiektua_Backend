@@ -68,7 +68,7 @@ Promise.all([fetchJSON("fullplayers25"), fetchJSON("solution25")]).then(
     
     console.log(game.solution);
 
-    document.getElementById("mistery").src = `https://playfootball.games/media/players/${game.solution.id % 32}/${game.solution.id}.png`;
+    document.getElementById("mistery").src = `/images/players/${game.solution.id}.png`;
 
 
  

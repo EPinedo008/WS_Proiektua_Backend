@@ -107,14 +107,17 @@ let setupRows = function (game) {
     function setContent(guess) {
         let gezi_balio = check("birthdate", guess.birthdate);
         if (gezi_balio == 'correct') gezi_balio = '';
+
         return [
-            `<img src="https://playfootball.games/media/nations/${guess.nationality.toLowerCase()}.svg" alt="" style="width: 60%;">`,
-            `<img src="https://playfootball.games/media/competitions/${leagueToFlag(guess.leagueId)}.png" alt="" style="width: 60%;">`,
-            `<img src="https://cdn.sportmonks.com/images/soccer/teams/${guess.teamId % 32}/${guess.teamId}.png" alt="" style="width: 60%;">`,
+            `<img src="/images/nations/${guess.nationality.toLowerCase()}.svg" alt="" style="width: 60%;">`,
+            `<img src="/images/competitions/${leagueToFlag(guess.leagueId)}.png" alt="" style="width: 60%;">`,
+            `<img src="/images/teams/${guess.teamId}.png" alt="" style="width: 60%;">`,
             `${guess.position}`,
             `${getAge(guess.birthdate) + (gezi_balio ? gezi_balio : '')}`,
         ];
     }
+
+    
 
     function showContent(content, guess) {
         let fragments = '', s = '';

@@ -11,7 +11,7 @@ const writePath = path.join(__dirname, '../../public/images/nations/');
 
     const content = await fs.readFile(
       path.join(__dirname, '../../data/nationalities.txt'),
-      'utf8'
+      'utf16le'
     );
 
     const nations = content.split(/\r?\n/);

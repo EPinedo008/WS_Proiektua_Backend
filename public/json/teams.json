@@ -1,0 +1,626 @@
+[
+  {
+    "id": 236,
+    "name": "Team 236",
+    "leagueId": 8,
+    "logoUrl": "/images/teams/236.png",
+    "country": "England",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 20,
+    "name": "Team 20",
+    "leagueId": 8,
+    "logoUrl": "/images/teams/20.png",
+    "country": "England",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 1,
+    "name": "Team 1",
+    "leagueId": 8,
+    "logoUrl": "/images/teams/1.png",
+    "country": "England",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 3,
+    "name": "Team 3",
+    "leagueId": 8,
+    "logoUrl": "/images/teams/3.png",
+    "country": "England",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 9,
+    "name": "Team 9",
+    "leagueId": 8,
+    "logoUrl": "/images/teams/9.png",
+    "country": "England",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 13,
+    "name": "Team 13",
+    "leagueId": 8,
+    "logoUrl": "/images/teams/13.png",
+    "country": "England",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 52,
+    "name": "Team 52",
+    "leagueId": 8,
+    "logoUrl": "/images/teams/52.png",
+    "country": "England",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 78,
+    "name": "Team 78",
+    "leagueId": 8,
+    "logoUrl": "/images/teams/78.png",
+    "country": "England",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 51,
+    "name": "Team 51",
+    "leagueId": 8,
+    "logoUrl": "/images/teams/51.png",
+    "country": "England",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 11,
+    "name": "Team 11",
+    "leagueId": 8,
+    "logoUrl": "/images/teams/11.png",
+    "country": "England",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 18,
+    "name": "Team 18",
+    "leagueId": 8,
+    "logoUrl": "/images/teams/18.png",
+    "country": "England",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 71,
+    "name": "Team 71",
+    "leagueId": 8,
+    "logoUrl": "/images/teams/71.png",
+    "country": "England",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 8,
+    "name": "Team 8",
+    "leagueId": 8,
+    "logoUrl": "/images/teams/8.png",
+    "country": "England",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 14,
+    "name": "Team 14",
+    "leagueId": 8,
+    "logoUrl": "/images/teams/14.png",
+    "country": "England",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 15,
+    "name": "Team 15",
+    "leagueId": 8,
+    "logoUrl": "/images/teams/15.png",
+    "country": "England",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 29,
+    "name": "Team 29",
+    "leagueId": 8,
+    "logoUrl": "/images/teams/29.png",
+    "country": "England",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 63,
+    "name": "Team 63",
+    "leagueId": 8,
+    "logoUrl": "/images/teams/63.png",
+    "country": "England",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 6,
+    "name": "Team 6",
+    "leagueId": 8,
+    "logoUrl": "/images/teams/6.png",
+    "country": "England",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 27,
+    "name": "Team 27",
+    "leagueId": 8,
+    "logoUrl": "/images/teams/27.png",
+    "country": "England",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 19,
+    "name": "Team 19",
+    "leagueId": 8,
+    "logoUrl": "/images/teams/19.png",
+    "country": "England",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 686,
+    "name": "Team 686",
+    "leagueId": 301,
+    "logoUrl": "/images/teams/686.png",
+    "country": "France",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 271,
+    "name": "Team 271",
+    "leagueId": 301,
+    "logoUrl": "/images/teams/271.png",
+    "country": "France",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 598,
+    "name": "Team 598",
+    "leagueId": 301,
+    "logoUrl": "/images/teams/598.png",
+    "country": "France",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 776,
+    "name": "Team 776",
+    "leagueId": 301,
+    "logoUrl": "/images/teams/776.png",
+    "country": "France",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 9257,
+    "name": "Team 9257",
+    "leagueId": 301,
+    "logoUrl": "/images/teams/9257.png",
+    "country": "France",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 1055,
+    "name": "Team 1055",
+    "leagueId": 301,
+    "logoUrl": "/images/teams/1055.png",
+    "country": "France",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 79,
+    "name": "Team 79",
+    "leagueId": 301,
+    "logoUrl": "/images/teams/79.png",
+    "country": "France",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 289,
+    "name": "Team 289",
+    "leagueId": 301,
+    "logoUrl": "/images/teams/289.png",
+    "country": "France",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 591,
+    "name": "Team 591",
+    "leagueId": 301,
+    "logoUrl": "/images/teams/591.png",
+    "country": "France",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 4508,
+    "name": "Team 4508",
+    "leagueId": 301,
+    "logoUrl": "/images/teams/4508.png",
+    "country": "France",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 59,
+    "name": "Team 59",
+    "leagueId": 301,
+    "logoUrl": "/images/teams/59.png",
+    "country": "France",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 690,
+    "name": "Team 690",
+    "leagueId": 301,
+    "logoUrl": "/images/teams/690.png",
+    "country": "France",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 6789,
+    "name": "Team 6789",
+    "leagueId": 301,
+    "logoUrl": "/images/teams/6789.png",
+    "country": "France",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 450,
+    "name": "Team 450",
+    "leagueId": 301,
+    "logoUrl": "/images/teams/450.png",
+    "country": "France",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 3513,
+    "name": "Team 3513",
+    "leagueId": 301,
+    "logoUrl": "/images/teams/3513.png",
+    "country": "France",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 44,
+    "name": "Team 44",
+    "leagueId": 301,
+    "logoUrl": "/images/teams/44.png",
+    "country": "France",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 3682,
+    "name": "Team 3682",
+    "leagueId": 301,
+    "logoUrl": "/images/teams/3682.png",
+    "country": "France",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 266,
+    "name": "Team 266",
+    "leagueId": 301,
+    "logoUrl": "/images/teams/266.png",
+    "country": "France",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 93,
+    "name": "Team 93",
+    "leagueId": 564,
+    "logoUrl": "/images/teams/93.png",
+    "country": "Spain",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 485,
+    "name": "Team 485",
+    "leagueId": 564,
+    "logoUrl": "/images/teams/485.png",
+    "country": "Spain",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 2975,
+    "name": "Team 2975",
+    "leagueId": 564,
+    "logoUrl": "/images/teams/2975.png",
+    "country": "Spain",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 106,
+    "name": "Team 106",
+    "leagueId": 564,
+    "logoUrl": "/images/teams/106.png",
+    "country": "Spain",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 645,
+    "name": "Team 645",
+    "leagueId": 564,
+    "logoUrl": "/images/teams/645.png",
+    "country": "Spain",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 377,
+    "name": "Team 377",
+    "leagueId": 564,
+    "logoUrl": "/images/teams/377.png",
+    "country": "Spain",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 459,
+    "name": "Team 459",
+    "leagueId": 564,
+    "logoUrl": "/images/teams/459.png",
+    "country": "Spain",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 231,
+    "name": "Team 231",
+    "leagueId": 564,
+    "logoUrl": "/images/teams/231.png",
+    "country": "Spain",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 1099,
+    "name": "Team 1099",
+    "leagueId": 564,
+    "logoUrl": "/images/teams/1099.png",
+    "country": "Spain",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 13258,
+    "name": "Team 13258",
+    "leagueId": 564,
+    "logoUrl": "/images/teams/13258.png",
+    "country": "Spain",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 676,
+    "name": "Team 676",
+    "leagueId": 564,
+    "logoUrl": "/images/teams/676.png",
+    "country": "Spain",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 3477,
+    "name": "Team 3477",
+    "leagueId": 564,
+    "logoUrl": "/images/teams/3477.png",
+    "country": "Spain",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 3457,
+    "name": "Team 3457",
+    "leagueId": 564,
+    "logoUrl": "/images/teams/3457.png",
+    "country": "Spain",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 594,
+    "name": "Team 594",
+    "leagueId": 564,
+    "logoUrl": "/images/teams/594.png",
+    "country": "Spain",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 83,
+    "name": "Team 83",
+    "leagueId": 564,
+    "logoUrl": "/images/teams/83.png",
+    "country": "Spain",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 7980,
+    "name": "Team 7980",
+    "leagueId": 564,
+    "logoUrl": "/images/teams/7980.png",
+    "country": "Spain",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 3468,
+    "name": "Team 3468",
+    "leagueId": 564,
+    "logoUrl": "/images/teams/3468.png",
+    "country": "Spain",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 214,
+    "name": "Team 214",
+    "leagueId": 564,
+    "logoUrl": "/images/teams/214.png",
+    "country": "Spain",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 528,
+    "name": "Team 528",
+    "leagueId": 564,
+    "logoUrl": "/images/teams/528.png",
+    "country": "Spain",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 36,
+    "name": "Team 36",
+    "leagueId": 564,
+    "logoUrl": "/images/teams/36.png",
+    "country": "Spain",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 346,
+    "name": "Team 346",
+    "leagueId": 384,
+    "logoUrl": "/images/teams/346.png",
+    "country": "Italy",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 102,
+    "name": "Team 102",
+    "leagueId": 384,
+    "logoUrl": "/images/teams/102.png",
+    "country": "Italy",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 109,
+    "name": "Team 109",
+    "leagueId": 384,
+    "logoUrl": "/images/teams/109.png",
+    "country": "Italy",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 1123,
+    "name": "Team 1123",
+    "leagueId": 384,
+    "logoUrl": "/images/teams/1123.png",
+    "country": "Italy",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 398,
+    "name": "Team 398",
+    "leagueId": 384,
+    "logoUrl": "/images/teams/398.png",
+    "country": "Italy",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 43,
+    "name": "Team 43",
+    "leagueId": 384,
+    "logoUrl": "/images/teams/43.png",
+    "country": "Italy",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 613,
+    "name": "Team 613",
+    "leagueId": 384,
+    "logoUrl": "/images/teams/613.png",
+    "country": "Italy",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 585,
+    "name": "Team 585",
+    "leagueId": 384,
+    "logoUrl": "/images/teams/585.png",
+    "country": "Italy",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 708,
+    "name": "Team 708",
+    "leagueId": 384,
+    "logoUrl": "/images/teams/708.png",
+    "country": "Italy",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 1072,
+    "name": "Team 1072",
+    "leagueId": 384,
+    "logoUrl": "/images/teams/1072.png",
+    "country": "Italy",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 113,
+    "name": "Team 113",
+    "leagueId": 384,
+    "logoUrl": "/images/teams/113.png",
+    "country": "Italy",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 268,
+    "name": "Team 268",
+    "leagueId": 384,
+    "logoUrl": "/images/teams/268.png",
+    "country": "Italy",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 10722,
+    "name": "Team 10722",
+    "leagueId": 384,
+    "logoUrl": "/images/teams/10722.png",
+    "country": "Italy",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 2930,
+    "name": "Team 2930",
+    "leagueId": 384,
+    "logoUrl": "/images/teams/2930.png",
+    "country": "Italy",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 597,
+    "name": "Team 597",
+    "leagueId": 384,
+    "logoUrl": "/images/teams/597.png",
+    "country": "Italy",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 7790,
+    "name": "Team 7790",
+    "leagueId": 384,
+    "logoUrl": "/images/teams/7790.png",
+    "country": "Italy",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 2714,
+    "name": "Team 2714",
+    "leagueId": 384,
+    "logoUrl": "/images/teams/2714.png",
+    "country": "Italy",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 625,
+    "name": "Team 625",
+    "leagueId": 384,
+    "logoUrl": "/images/teams/625.png",
+    "country": "Italy",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 37,
+    "name": "Team 37",
+    "leagueId": 384,
+    "logoUrl": "/images/teams/37.png",
+    "country": "Italy",
+    "stadium": "Unknown"
+  },
+  {
+    "id": 8513,
+    "name": "Team 8513",
+    "leagueId": 384,
+    "logoUrl": "/images/teams/8513.png",
+    "country": "Italy",
+    "stadium": "Unknown"
+  }
+]

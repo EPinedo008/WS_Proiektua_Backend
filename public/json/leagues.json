@@ -1,0 +1,37 @@
+[
+  {
+    "id": 564,
+    "code": "es1",
+    "name": "LaLiga",
+    "country": "Spain",
+    "flagUrl": "/images/flags/spain.svg"
+  },
+  {
+    "id": 8,
+    "code": "en1",
+    "name": "Premier League",
+    "country": "England",
+    "flagUrl": "/images/flags/england.svg"
+  },
+  {
+    "id": 82,
+    "code": "de1",
+    "name": "Bundesliga",
+    "country": "Germany",
+    "flagUrl": "/images/flags/germany.svg"
+  },
+  {
+    "id": 384,
+    "code": "it1",
+    "name": "Serie A",
+    "country": "Italy",
+    "flagUrl": "/images/flags/italy.svg"
+  },
+  {
+    "id": 301,
+    "code": "fr1",
+    "name": "Ligue 1",
+    "country": "France",
+    "flagUrl": "/images/flags/france.svg"
+  }
+]

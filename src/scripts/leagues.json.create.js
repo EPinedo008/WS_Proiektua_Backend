@@ -1,27 +1,18 @@
 import fs from "fs/promises";
+import leagueMap from "../../public/js/leagueMap.js";
 
-const players = JSON.parse(
-  await fs.readFile("../../public/json/fullplayers25.json", "utf8")
-);
+const content = await fs.readFile("../../data/leagues.txt", "utf8");
 
-const leagueMap = JSON.parse(
-  await fs.readFile("../../public/json/leagueMap.json", "utf8") //sortu eskuz
-);
+const codes = content.split(/\r?\n/);
 
-const leagueIds = [...new Set(players.map(p => p.leagueId))];
-
-const leagues = leagueIds.map(id => ({
-  id,
-  name: leagueMap[id].name,
-  code: leagueMap[id].code,
-  country: leagueMap[id].country,
-  flagUrl: `https://playfootball.games/media/nations/${leagueMap[id].country.toLowerCase()}.svg` //aldatu deskargatuta daudelako public en
+const leagues = codes.map(code => ({
+  id: leagueMap[code].leagueCode,
+  code: code,
+  name: leagueMap[code].name,
+  country: leagueMap[code].country,
+  flagUrl: `/images/flags/${leagueMap[code].country.toLowerCase()}.svg`
 }));
 
-await fs.writeFile(
-  "league.json",
-  JSON.stringify(leagues, null, 2)
-);
+await fs.writeFile("../../public/json/leagues.json", JSON.stringify(leagues, null, 2));
 
-console.log(" league.json sortuta");
-
+console.log("league.json sortuta");

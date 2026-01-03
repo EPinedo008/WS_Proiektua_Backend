@@ -1,4 +1,5 @@
 const jwt = require('jsonwebtoken');
+const User = require('../modules/users/users.model');
 
 exports.protect = (req, res, next) => {
   let token;
@@ -12,7 +13,7 @@ exports.protect = (req, res, next) => {
 
   try {
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
-    req.user = decoded; // { userId, role }
+    req.user = decoded; 
     next();
   } catch (err) {
     return res.status(401).json({ msg: 'Token baliogabea.' });
@@ -25,4 +26,29 @@ exports.adminOnly = (req, res, next) => {
   } else {
     return res.status(403).json({ msg: 'Sarbide debekatua. Admin rola behar da.' });
   }
+};
+
+exports.checkUser = async (req, res, next) => {
+    let token;
+    if (req.cookies && req.cookies.token) {
+        token = req.cookies.token;
+    }
+
+    
+    if (!token) {
+        req.user = null; 
+        return next();
+    }
+
+    
+    try {
+        const decoded = jwt.verify(token, process.env.JWT_SECRET);
+        
+        req.user = await User.findById(decoded.userId).select('-password');
+        next();
+    } catch (error) {
+        
+        req.user = null;
+        next();
+    }
 };

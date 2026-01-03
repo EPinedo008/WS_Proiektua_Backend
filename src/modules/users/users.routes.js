@@ -19,6 +19,16 @@ router.get('/profile', protect, (req, res) => {
     res.json(req.user);
 });
 
+router.get('/login', (req, res) => {
+    res.render('auth/login');
+});
+
+router.get('/register', (req, res) => {
+    res.render('auth/register', { error: null, formData: {} }); 
+});
+
+router.get('/logout', userController.logout);
+
 
 router.get('/admin-dashboard', protect, adminOnly, (req, res) => {
     res.json({ msg: "Admin gunea" });

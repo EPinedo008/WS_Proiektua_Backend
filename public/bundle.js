@@ -156,7 +156,7 @@ V3a1 1 0 012 0v11.586l2.293-2.293a1 1 0 011.414 0z" clip-rule="evenodd
 const stringToHTML = (str) => {
     const parser = new DOMParser();
     const doc = parser.parseFromString(str, "text/html");
-    return doc.body;
+    return doc.body.firstChild;
 };
 
 
@@ -442,7 +442,14 @@ let setupRows = function (game) {
         const closedialog = document.getElementById("closedialog");
         if (closedialog) {
             closedialog.onclick = function () {
-                document.body.removeChild(document.body.lastChild);
+                
+                const modalRoot = document.getElementById("headlessui-portal-root");
+                if (modalRoot) {
+                    modalRoot.remove();
+                } else {
+                    document.body.removeChild(document.body.lastChild);
+                }
+
                 const mistery = document.getElementById("mistery");
                 if (mistery) mistery.classList.remove("hue-rotate-180", "blur");
             }
